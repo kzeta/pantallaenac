@@ -28,3 +28,20 @@ Obtener el ID
 
   return cpuserial
   ```
+  
+## Archivo autostart inicial
+  
+```
+@pcmanfm --desktop --profile LXDE-pi
+@xscreensaver -no-splash
+@point-rpi
+
+@xset s noblank
+@xset s off
+@xset -dpms
+
+@unclutter
+@chromium-browser --kiosk --incognito --autoplay-policy=no-user-gesture-required  https://carteleria.k-maleon.cl/inicio/?serial=1234567
+```
+
+
