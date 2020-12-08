@@ -57,8 +57,6 @@ while True:
                 cur.execute(sql)
                 conn.commit()
 
-client_loop: send disconnect: Connection reset by peer
-crosales@KAZETA-PC:~$
                 #print sql
         else:
                 print "estoy online"
